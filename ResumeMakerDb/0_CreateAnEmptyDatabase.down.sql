@@ -1,4 +1,5 @@
--- Migration 0 (down): Delete the ResumeMakerDb database.
+-- Migration 0 (down)
+-- Delete the ResumeMakerDb database.
 
 USE master;
 GO
