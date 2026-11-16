@@ -1,5 +1,5 @@
 -- Migration 0 (down)
--- Delete the ResumeMakerDb database.
+-- Create an empty ResumeMakerDb database.
 
 USE master;
 GO
