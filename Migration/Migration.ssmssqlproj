@@ -21,29 +21,29 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="0_CreateAnEmptyDatabase.down.sql">
+        <FileNode Name="Migration_0_CreateAnEmptyDatabase.down.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>0_CreateAnEmptyDatabase.down.sql</FullPath>
+          <FullPath>Migration_0_CreateAnEmptyDatabase.down.sql</FullPath>
         </FileNode>
-        <FileNode Name="0_CreateAnEmptyDatabase.up.sql">
+        <FileNode Name="Migration_0_CreateAnEmptyDatabase.up.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>0_CreateAnEmptyDatabase.up.sql</FullPath>
+          <FullPath>Migration_0_CreateAnEmptyDatabase.up.sql</FullPath>
         </FileNode>
-        <FileNode Name="1_CreateUsersTable.down.sql">
+        <FileNode Name="Migration_1_CreateUsersTable.down.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>1_CreateUsersTable.down.sql</FullPath>
+          <FullPath>Migration_1_CreateUsersTable.down.sql</FullPath>
         </FileNode>
-        <FileNode Name="1_CreateUsersTable.up.sql">
+        <FileNode Name="Migration_1_CreateUsersTable.up.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>1_CreateUsersTable.up.sql</FullPath>
+          <FullPath>Migration_1_CreateUsersTable.up.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
