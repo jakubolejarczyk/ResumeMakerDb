@@ -4,7 +4,7 @@ USE ResumeMakerDb;
 GO
 
 CREATE TABLE Users (
-	id INT IDENTITY(1,1),
+	id INT IDENTITY(0,1),
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
 	email VARCHAR(255) NOT NULL,

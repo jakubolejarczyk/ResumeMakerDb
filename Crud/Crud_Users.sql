@@ -2,8 +2,8 @@ USE ResumeMakerDb;
 GO
 
 -- Create
-INSERT INTO Users (first_name, last_name, email, phone, city, country)
-VALUES ('', '', '', '', '', '');
+--INSERT INTO Users (first_name, last_name, email, phone, city, country)
+--VALUES ('', '', '', '', '');
 
 -- Update
 --UPDATE Users
