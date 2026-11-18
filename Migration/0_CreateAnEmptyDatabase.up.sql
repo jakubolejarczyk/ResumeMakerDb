@@ -1,5 +1,4 @@
--- Migration 0 (up)
--- Create an empty ResumeMakerDb database.
+-- Migration 0 (down): Create an empty database
 
 USE master;
 GO
