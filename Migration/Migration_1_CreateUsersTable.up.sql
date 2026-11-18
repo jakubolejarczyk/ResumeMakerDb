@@ -8,10 +8,10 @@ CREATE TABLE Users (
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
 	email VARCHAR(255) NOT NULL,
-	phone VARCHAR(255) NOT NULL,
+	country_code VARCHAR(3) NOT NULL,
+	national_number VARCHAR(15) NOT NULL,
 	city VARCHAR(255) NOT NULL,
 	country VARCHAR(255) NOT NULL,
 	CONSTRAINT pk_users PRIMARY KEY (id),
-	CONSTRAINT uq_users_email UNIQUE (email),
-	CONSTRAINT uq_users_phone UNIQUE (phone)
+	CONSTRAINT uq_users_email UNIQUE (email)
 );
