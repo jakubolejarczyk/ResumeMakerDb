@@ -5,14 +5,14 @@ GO
 --INSERT INTO Users (first_name, last_name, email, phone, city, country)
 --VALUES ('', '', '', '', '');
 
--- Update
---UPDATE Users
---SET first_name = ''
---WHERE id = 1;
-
 -- Read
 SELECT * FROM Users;
 
+-- Update
+--UPDATE Users
+--SET first_name = ''
+--WHERE id = 0;
+
 -- Delete
 --DELETE Users
---WHERE id = 1;
+--WHERE id = 0;

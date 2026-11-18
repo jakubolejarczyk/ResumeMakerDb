@@ -9,5 +9,10 @@ GO
 SELECT * FROM Links;
 
 -- Update
+--UPDATE Links
+--SET link = ''
+--WHERE id = 0;
 
 -- Delete
+--DELETE Links
+--WHERE id = 0;
