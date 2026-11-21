@@ -6,7 +6,15 @@ GO
 --VALUES (0, '', NULL, 1);
 
 -- Read
-SELECT * FROM Companies;
+SELECT
+	id,
+	resume_id,
+	company_name,
+	gdpr_clause,
+	show_gdpr_clause,
+	created_at,
+	updated_at
+FROM Companies;
 
 -- Update
 --UPDATE Companies

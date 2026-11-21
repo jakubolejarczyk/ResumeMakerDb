@@ -27,6 +27,12 @@
           <AssociatedConnUserName />
           <FullPath>Crud_Companies.sql</FullPath>
         </FileNode>
+        <FileNode Name="Crud_Educations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Crud_Educations.sql</FullPath>
+        </FileNode>
         <FileNode Name="Crud_Links.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
