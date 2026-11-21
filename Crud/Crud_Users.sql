@@ -6,7 +6,18 @@ GO
 --VALUES ('', '', '', '', '', '', '');
 
 -- Read
-SELECT * FROM Users;
+SELECT
+	id,
+	first_name,
+	last_name,
+	email,
+	country_code,
+	national_number,
+	city,
+	country,
+	created_at,
+	updated_at
+FROM Users;
 
 -- Update
 --UPDATE Users

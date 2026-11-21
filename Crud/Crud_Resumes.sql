@@ -6,7 +6,15 @@ GO
 --VALUES (0, '', '', 0);
 
 -- Read
-SELECT * FROM Resumes;
+SELECT
+	id,
+	user_id,
+	job_title,
+	summary,
+	position,
+	created_at,
+	updated_at
+FROM Resumes;
 
 -- Update
 --UPDATE Resumes

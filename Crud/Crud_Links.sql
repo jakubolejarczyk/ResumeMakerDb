@@ -6,7 +6,14 @@ GO
 --VALUES (0, '', 0);
 
 -- Read
-SELECT * FROM Links;
+SELECT
+	id,
+	user_id,
+	link,
+	position,
+	created_at,
+	updated_at
+FROM Links;
 
 -- Update
 --UPDATE Links
