@@ -105,6 +105,18 @@
           <AssociatedConnUserName />
           <FullPath>Migration_6_CreateEducationsTable.up.sql</FullPath>
         </FileNode>
+        <FileNode Name="Migration_7_CreateExperiencesTable.down.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Migration_7_CreateExperiencesTable.down.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Migration_7_CreateExperiencesTable.up.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Migration_7_CreateExperiencesTable.up.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
