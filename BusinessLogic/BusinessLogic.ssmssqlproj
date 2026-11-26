@@ -21,11 +21,11 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="Business.sql">
+        <FileNode Name="Business_GetEducations.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>jakub\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Business.sql</FullPath>
+          <FullPath>Business_GetEducations.sql</FullPath>
         </FileNode>
         <FileNode Name="Business_GetExperiences.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:jakub\SQLEXPRESS:True</AssociatedConnectionMoniker>
