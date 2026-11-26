@@ -2,8 +2,8 @@ USE ResumeMakerDb;
 GO
 
 -- Create
---INSERT INTO Experiences (resume_id, company, job_title, description, start_date, end_date)
---VALUES (0, '', '', '', '', '');
+--INSERT INTO Experiences (resume_id, company, job_title, start_date, end_date)
+--VALUES (0, '', '', '', '');
 
 -- Read
 SELECT
@@ -11,7 +11,6 @@ SELECT
 	resume_id,
 	company,
 	job_title,
-	description,
 	start_date,
 	end_date,
 	created_at,
