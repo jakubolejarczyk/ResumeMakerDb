@@ -2,12 +2,12 @@ USE ResumeMakerDb;
 GO
 
 SELECT
-	e.company,
-	e.job_title,
-	ed.description,
-	CONVERT(VARCHAR, e.start_date) +
+	e.company AS experience_company,
+	e.job_title AS experience_job_title,
+	ed.description AS experience_description,
+	FORMAT(e.start_date, 'dd-MM-yyyy') +
 	' - ' +
-	ISNULL(CONVERT(VARCHAR, e.end_date), 'Obecnie') AS experience_period
+	ISNULL(FORMAT(e.end_date, 'dd-MM-yyyy'), 'Obecnie') AS experience_period
 FROM Users AS u
 INNER JOIN Resumes AS r
 ON u.id = r.user_id
